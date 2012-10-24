@@ -36,7 +36,6 @@ else
 
 fi
 
-export RED
 export MAGENTA
 export ORANGE
 export GREEN
@@ -44,6 +43,8 @@ export PURPLE
 export WHITE
 export BOLD
 export RESET
+
+export FLASHING_PINK="\033[5;34"
 
 function parse_git_dirty() {
 	[[ $(git status 2> /dev/null | tail -n1) != "nothing to commit (working directory clean)" ]] && echo "*"
@@ -53,6 +54,6 @@ function parse_git_branch() {
 	git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/\1$(parse_git_dirty)/"
 }
 
-export PS1="\[$GREEN\]\w\[$WHITE\]\$([[ -n \$(git branch 2> /dev/null) ]] && echo \" on \")\[$PURPLE\]\$(parse_git_branch)\[$WHITE\]-▹ \[$RESET\]"
+export PS1="\[$MAGENTA\]\w\[$WHITE\]\$([[ -n \$(git branch 2> /dev/null) ]] && echo \"\")\[$FLASHING_PINK\]\[$WHITE\]››\[$RESET\]"
 export PS2="\[$ORANGE\]→ \[$RESET\]"
 
