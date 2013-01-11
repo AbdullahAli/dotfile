@@ -6,5 +6,34 @@ export PATH=/usr/local/bin:$PATH
 PATH=$PATH:$HOME/.rvm/bin
 
 alias desk='cd ~/Desktop'
+alias fingers-crossed='bundle exec spec'
 alias b='bundle exec'
 alias x='gitx'
+alias op='cd ~/Desktop/operator_api'
+alias ops='cd ~/Desktop/operator_api_stubs/'
+alias wap='cd ~/Desktop/migpay_3/wap/'
+alias v='mvim '
+alias ll="echo 'THERE YOU GO:'; echo '----------------------------------------'; ls -la; echo '----------------------------------------'; "
+alias ls="ls -G"
+
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+
+export TERM=xterm
+
+ssh-add
+
+alias grep='grep --color'
+
+export GREP_COLOR=32
+export LSCOLORS=ExFxCxDxBxegedabagacad
+
+##
+# Your previous /Users/aali/.bash_profile file was backed up as /Users/aali/.bash_profile.macports-saved_2012-11-20_at_16:25:31
+##
+
+# MacPorts Installer addition on 2012-11-20_at_16:25:31: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+

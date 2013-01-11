@@ -1,4 +1,9 @@
 [color]
-    diff = auto
-    status = auto
-    branch = auto
+	diff = auto
+	status = auto
+	branch = auto
+[user]
+	name = Abdullah Ali
+	email = abdullah-ali@hotmail.co.uk
+[core]
+	excludesfile = /Users/aali/.gitignore_global
