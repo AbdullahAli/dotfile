@@ -31,6 +31,9 @@ Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-vividchalk'
 Bundle 'tsaleh/vim-matchit'
 Bundle 'vim-ruby/vim-ruby'
+Bundle 'vividchalk.vim'
+
+
 
 " Set colors to 256
 set t_Co=256
