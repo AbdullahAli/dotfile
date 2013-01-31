@@ -13,8 +13,10 @@ alias op='cd ~/Desktop/operator_api'
 alias ops='cd ~/Desktop/operator_api_stubs/'
 alias wap='cd ~/Desktop/migpay_3/wap/'
 alias v='mvim '
-alias ll="echo 'THERE YOU GO:'; echo '----------------------------------------'; ls -la; echo '----------------------------------------'; "
+alias ll="ls -la"
 alias ls="ls -G"
+alias gg="git grep --color"
+alias dir="mkdir"
 
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
