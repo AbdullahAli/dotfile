@@ -23,7 +23,6 @@ Bundle 'ricardovaleriano/vim-github-theme'
 Bundle 'scrooloose/nerdtree'
 Bundle 'statianzo/vim-jade'
 Bundle 'tomtom/tcomment_vim'
-Bundle 'toonsend/Monkey-VIM'
 Bundle 'torandu/vim-bufexplorer'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-ragtag'
@@ -32,6 +31,10 @@ Bundle 'tpope/vim-vividchalk'
 Bundle 'tsaleh/vim-matchit'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'vividchalk.vim'
+Bundle 'endwise.vim'
+Bundle 'surround.vim'
+Bundle 'kaichen/vim-snipmate-ruby-snippets'
+Bundle 'scrooloose/syntastic'
 
 
 
