@@ -8,7 +8,6 @@ PATH=$PATH:$HOME/.rvm/bin
 alias desk='cd ~/Desktop'
 alias fingers-crossed='bundle exec spec'
 alias b='bundle exec'
-alias x='gitx'
 alias op='cd ~/Desktop/operator_api'
 alias ops='cd ~/Desktop/operator_api_stubs/'
 alias wap='cd ~/Desktop/migpay_3/wap'
@@ -16,12 +15,31 @@ alias admin='cd ~/Desktop/migpay_3/admin'
 alias v='mvim'
 alias ll="ls -la"
 alias ls="ls -G"
-alias gg="git grep --color"
 alias dir="mkdir"
 alias jg="cd ~/Desktop/justgiving"
 alias jgm="cd ~/Desktop/justgiving_mocks"
 alias iterm="open /Users/aali/Downloads/iTerm.app/"
 alias q="b rake spec SPEC="
+alias storm='cd ~/Desktop/storm_crow'
+
+alias bashinstall='ruby ~/dotfile/install.rb'
+
+alias trello='open https://trello.com/'
+alias github='open https://github.com/'
+alias github_migpay='open https://github.com/mitadmin/migpay_3'
+alias github_jg='open https://github.com/mitadmin/justgiving'
+alias github_oap='open https://github.com/mitadmin/operator_api'
+alias abdullah='echo he is awesome'
+
+/* git */
+alias x='gitx'
+alias dev='git checkout development'
+alias gg="git grep --color"
+alias pull='git pull'
+alias push='git push origin `git rev-parse --abbrev-ref HEAD`'
+alias branch='git branch'
+alias newbranch='git checkout -b'
+alias status='git status'
 
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash

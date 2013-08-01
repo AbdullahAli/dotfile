@@ -10,3 +10,5 @@
 	editor = vim
 [github]
 	user = abdullahali
+[push]
+	default = current

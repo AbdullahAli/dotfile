@@ -33,9 +33,9 @@ Bundle 'vim-ruby/vim-ruby'
 Bundle 'vividchalk.vim'
 Bundle 'endwise.vim'
 Bundle 'surround.vim'
-Bundle 'kaichen/vim-snipmate-ruby-snippets'
-Bundle 'scrooloose/syntastic'
-
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "tpope/vim-rails"
 
 
 " Set colors to 256
