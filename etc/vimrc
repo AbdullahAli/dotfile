@@ -36,7 +36,9 @@ Bundle 'surround.vim'
 Bundle 'kaichen/vim-snipmate-ruby-snippets'
 Bundle 'scrooloose/syntastic'
 Bundle 'kchmck/vim-coffee-script'
-
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "tpope/vim-rails"
 
 
 " Set colors to 256
