@@ -35,6 +35,7 @@ Bundle 'endwise.vim'
 Bundle 'surround.vim'
 Bundle 'kaichen/vim-snipmate-ruby-snippets'
 Bundle 'scrooloose/syntastic'
+Bundle 'kchmck/vim-coffee-script'
 
 
 
