@@ -39,11 +39,13 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
 Bundle "tpope/vim-rails"
+Bundle "altercation/vim-colors-solarized"
 
 
 " Set colors to 256
 set t_Co=256
 let &t_Co=256
+let g:solarized_termcolors=256
 
 " fires filetype event with sets syntax etc.
 filetype plugin indent on
@@ -239,7 +241,12 @@ if has("gui_running")
   set guitablabel=%N\ %t\ %M
 endif
 
-colorscheme vividchalk
+set background=dark
+" solarized options
+let g:solarized_termcolors = 256
+let g:solarized_visibility = "high"
+let g:solarized_contrast = "high"
+colorscheme solarized
 
 " set nocursorline
 hi CursorLine  cterm=NONE ctermbg=234 ctermfg=NONE guibg=NONE guifg=NONE
