@@ -6,30 +6,17 @@ export PATH=/usr/local/bin:$PATH
 PATH=$PATH:$HOME/.rvm/bin
 
 alias desk='cd ~/Desktop'
-alias fingers-crossed='bundle exec spec'
 alias b='bundle exec'
-alias op='cd ~/Desktop/operator_api'
-alias ops='cd ~/Desktop/operator_api_stubs/'
-alias wap='cd ~/Desktop/migpay_3/wap'
-alias admin='cd ~/Desktop/migpay_3/admin'
 alias v='mvim'
 alias ll="ls -la"
 alias ls="ls -G"
-alias dir="mkdir"
-alias jg="cd ~/Desktop/justgiving"
-alias jgm="cd ~/Desktop/justgiving_mocks"
+alias ref="cd ~/Desktop/ref"
 alias iterm="open /Users/aali/Downloads/iTerm.app/"
-alias q="b rake spec SPEC="
-alias storm='cd ~/Desktop/storm_crow'
 
 alias bashinstall='ruby ~/dotfile/install.rb'
 
 alias trello='open https://trello.com/'
 alias github='open https://github.com/'
-alias github_migpay='open https://github.com/mitadmin/migpay_3'
-alias github_jg='open https://github.com/mitadmin/justgiving'
-alias github_oap='open https://github.com/mitadmin/operator_api'
-alias abdullah='echo he is awesome'
 
 /* git */
 alias x='gitx'
